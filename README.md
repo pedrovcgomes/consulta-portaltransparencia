@@ -56,6 +56,7 @@ CNPJ=seu_cnpj
 ## Estrutura do Projeto
 
 meu_projeto/
+
 │
 ├── api.py           # Funções para consulta à API do Portal da Transparência
 
