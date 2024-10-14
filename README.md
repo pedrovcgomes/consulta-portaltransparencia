@@ -53,16 +53,20 @@ EMAIL_TO=seu_email
 CNPJ=seu_cnpj
 
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 
 meu_projeto/
 │
 ├── api.py           # Funções para consulta à API do Portal da Transparência
+
 ├── email.py         # Funções para envio de e-mails
+
 ├── main.py          # Ponto de entrada do projeto
+
 ├── requirements.txt  # Dependências do projeto
+
 └── .env             # Variáveis de ambiente 
 
 
-##Contribuição
+## Contribuição
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, fique à vontade para abrir uma issue ou enviar um pull request.
