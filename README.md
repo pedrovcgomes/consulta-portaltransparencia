@@ -45,12 +45,15 @@ Para acessar a API, você precisa solicitar sua chave API através do site do Po
 3. **Configure as variáveis de ambiente:**
 
 Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
+
 API_KEY=sua_chave_api
+
 EMAIL_TO=seu_email
+
 CNPJ=seu_cnpj
 
 
-Estrutura do Projeto
+##Estrutura do Projeto
 
 meu_projeto/
 │
