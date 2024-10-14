@@ -37,3 +37,29 @@ Para acessar a API, você precisa solicitar sua chave API através do site do Po
    ```bash
    git clone https://github.com/pedrovcgomes/consulta-portaltransparencia.git
    cd consulta-portaltransparencia
+
+
+2. **Instale as dependências:**
+   pip install -r requirements.txt
+   
+3. **Configure as variáveis de ambiente:**
+
+Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
+API_KEY=sua_chave_api
+EMAIL_TO=seu_email
+CNPJ=seu_cnpj
+
+
+Estrutura do Projeto
+
+meu_projeto/
+│
+├── api.py           # Funções para consulta à API do Portal da Transparência
+├── email.py         # Funções para envio de e-mails
+├── main.py          # Ponto de entrada do projeto
+├── requirements.txt  # Dependências do projeto
+└── .env             # Variáveis de ambiente 
+
+
+##Contribuição
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, fique à vontade para abrir uma issue ou enviar um pull request.
